@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .main-area {
-    margin: 48px 32px;
+    margin: 0;
     padding: 26px;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
@@ -123,12 +123,25 @@ button.buy-now:active {
 
 @media only screen and (max-width: 614px) {
     .right-container {
-        margin-top: -73px;
+    margin-top: -70px;
+    margin-right: 34px;
     }
     button.buy-now {
-        margin-left: -22px;
+        margin-left: -19px;
+       width: 82px;
+       height: 25px;
+       font-size: 14px;
+       margin-top: 49px;
     }
     .right-container h4{
-        margin-left: -104px;
+        margin-top: 54px;
+        position: absolute;
+        margin-left: -78px;
+        font-size: 16px;    
+    }
+    .left-container {
+        margin-top: -17px;
+        width: 343px;
+        margin-left: -25px;
     }
 }
